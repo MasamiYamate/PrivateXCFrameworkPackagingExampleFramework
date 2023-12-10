@@ -1,9 +1,9 @@
 GIT
   remote: https://github.com/MasamiYamate/fastlane-plugin-privatexcframeworkpackaging
-  revision: c7ccb946ef62eab219549704ccb2e0bf3e1e3e93
-  tag: 0.3.1
+  revision: 5b5772440cde224a0e048edf67f29047346d40b4
+  tag: 0.3.2
   specs:
-    fastlane-plugin-privatexcframeworkpackaging (0.3.1)
+    fastlane-plugin-privatexcframeworkpackaging (0.3.2)
 
 GEM
   remote: https://rubygems.org/
