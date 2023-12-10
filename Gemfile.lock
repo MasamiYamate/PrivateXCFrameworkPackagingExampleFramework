@@ -1,5 +1,7 @@
-PATH
-  remote: ../fastlane-plugin-privatexcframeworkpackaging
+GIT
+  remote: https://github.com/MasamiYamate/fastlane-plugin-privatexcframeworkpackaging
+  revision: 6acb925986a6784aedc61e220ac0cf9c7e6e8e61
+  tag: 0.1.1
   specs:
     fastlane-plugin-privatexcframeworkpackaging (0.1.0)
 
