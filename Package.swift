@@ -14,7 +14,7 @@ let package = Package(
     targets: [
         .binaryTarget(
     name: "SampleFramework",
-    url: "https://api.github.com/repos/MasamiYamate/PrivateXCFrameworkPackagingExampleFramework/releases/assets/139933359.zip",
+    url: "https://api.github.com/repos/MasamiYamate/PrivateXCFrameworkPackagingExampleFramework/releases/assets/139933631.zip",
     checksum: "9b588da829930de437275973d5e627c8b85ec068ae524758c6f12b2b4412a3ea"
 )
     ]
