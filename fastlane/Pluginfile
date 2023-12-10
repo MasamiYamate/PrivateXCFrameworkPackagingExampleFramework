@@ -1,0 +1,2 @@
+gem "fastlane-plugin-privatexcframeworkpackaging", git: "https://github.com/MasamiYamate/fastlane-plugin-privatexcframeworkpackaging", branch: "main"
+
