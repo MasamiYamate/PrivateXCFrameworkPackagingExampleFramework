@@ -4,20 +4,18 @@
 import PackageDescription
 
 let package = Package(
-    name: "MyLibrary",
+    name: "PrivateXCFrameworkPackagingExampleFramework",
     products: [
-        // Products define the executables and libraries a package produces, making them visible to other packages.
         .library(
-            name: "MyLibrary",
-            targets: ["MyLibrary"]),
+    name: "SampleFramework",
+    targets: ["SampleFramework"]
+)
     ],
     targets: [
-        // Targets are the basic building blocks of a package, defining a module or a test suite.
-        // Targets can depend on other targets in this package and products from dependencies.
-        .target(
-            name: "MyLibrary"),
-        .testTarget(
-            name: "MyLibraryTests",
-            dependencies: ["MyLibrary"]),
+        .binaryTarget(
+    name: "SampleFramework",
+    url: "https://api.github.com/repos/MasamiYamate/PrivateXCFrameworkPackagingExampleFramework/releases/assets/139933359.zip",
+    checksum: "9b588da829930de437275973d5e627c8b85ec068ae524758c6f12b2b4412a3ea"
+)
     ]
 )
