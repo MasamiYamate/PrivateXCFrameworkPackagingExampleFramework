@@ -1,16 +1,8 @@
 defaultBranchName: "main"
-packageName: "PrivateXCFrameworkPackagingSample"
+packageName: "PrivateXCFrameworkPackagingExampleFramework"
 libraries:
- - name: "GoogleMaps"
+ - name: "SampleFramework"
    targets:
-    - "GoogleMaps"
-    - "GoogleMapsBase"
-    - "GoogleMapsCore"
- - name: GooglePlaces
-   targets:
-    - "GooglePlaces"
+    - "SampleFramework"
 binaryTargets:
- - "GoogleMaps"
- - "GoogleMapsBase"
- - "GoogleMapsCore"
- - "GooglePlaces"
+ - "SampleFramework"
