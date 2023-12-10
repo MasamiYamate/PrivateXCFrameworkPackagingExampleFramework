@@ -1,2 +1,2 @@
-gem "fastlane-plugin-privatexcframeworkpackaging", git: "https://github.com/MasamiYamate/fastlane-plugin-privatexcframeworkpackaging", tag: "0.1.1"
+gem "fastlane-plugin-privatexcframeworkpackaging", git: "https://github.com/MasamiYamate/fastlane-plugin-privatexcframeworkpackaging", tag: "0.3.1"
 

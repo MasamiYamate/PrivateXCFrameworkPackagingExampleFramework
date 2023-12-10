@@ -1,8 +1,8 @@
-defaultBranchName: "main"
-packageName: "PrivateXCFrameworkPackagingExampleFramework"
+default_branch_name: "main"
+package_name: "PrivateXCFrameworkPackagingExampleFramework"
 libraries:
  - name: "SampleFramework"
    targets:
     - "SampleFramework"
-binaryTargets:
+binary_targets:
  - "SampleFramework"
