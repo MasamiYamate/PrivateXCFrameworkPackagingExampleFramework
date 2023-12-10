@@ -8,13 +8,13 @@ let package = Package(
     products: [
         .library(
     name: "SampleFramework",
-    targets: ["SampleFramework"]
+    targets: ['SampleFramework']
 )
     ],
     targets: [
         .binaryTarget(
     name: "SampleFramework",
-    url: "https://api.github.com/repos/MasamiYamate/PrivateXCFrameworkPackagingExampleFramework/releases/assets/139934078.zip",
+    url: "https://api.github.com/repos/MasamiYamate/PrivateXCFrameworkPackagingExampleFramework/releases/assets/139942267.zip",
     checksum: "9b588da829930de437275973d5e627c8b85ec068ae524758c6f12b2b4412a3ea"
 )
     ]
